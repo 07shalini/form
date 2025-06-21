@@ -1,0 +1,62 @@
+body{
+    background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(5, 110, 188, 1) 67%, rgba(0, 212, 255, 1) 100%);
+color:azure;
+}
+form{
+    width: 600px;
+    margin:auto;
+}
+fieldset{
+    border-radius: 33px;
+}
+input:focus{
+    background-color:rgb(230, 233, 192);
+}
+legend{
+    font-family: monospace;
+    font-weight:900;
+    font-style: bold;    
+}
+h1{
+    text-align: center;
+}
+input+p{
+     display: inline ;
+     display: none ;
+}
+input:hover+p{
+     display: inline ;
+     font-family: cursive;
+     font-style: italic;
+     font-size: x-small;
+}
+input[type="radio"]:checked{
+    width:15px;
+    height:15px;
+}
+input[type="radio"]:checked+span{
+    width:30px;
+    height:30px;
+    display: inline;
+}
+select{
+    background-color: rgb(218, 234, 240);
+}
+textarea{
+    resize: none;
+}
+input[type="email"]~img{
+    display: none;
+}
+input[type="email"]:focus:valid~img#correct{
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+input[type="email"]:focus:invalid~img#wrong{
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+

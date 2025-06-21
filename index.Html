@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link rel="Stylesheet" href="Style.css">
+    </head>
+        <body>
+          <h1>Course Registration Form</h1>
+          <form action="Thank.html">
+          <fieldset> 
+            <legend>Personal Details</legend>
+            <table>
+                <td></td>
+                <td></td>
+              <tr>
+                <td><label for="Fname">Name</label></td>
+                <td><input name="Name" type="text" required placeholder="Naveen">
+                     <p>Enter Your Name</p>
+                </td>
+              </tr>
+              <tr><td><label for="Sname">Surname</label></td>
+                <td><input name="Sname" type="text" placeholder="Reddy" optional></td></tr>
+              <tr><td><label for="mobile">Mobile Number</label></td>
+                <td><input type="tel" required name="MobileNum" placeholder="9087654321"><p>Give valid number</p></td></tr>
+              <tr><td><label for="mail">Email</label></td>
+                <td><input type="email" required placeholder="123@gmail.com" name="Mail"><p>Give email id</p>
+                <img src="https://cdn-icons-png.flaticon.com/128/4436/4436481.png" alt="Correct" id="correct">
+              <img src="https://cdn-icons-png.flaticon.com/128/17385/17385231.png" alt="Invalid" id="wrong"></tr>
+              <tr> <td><label for="Password">Password</label></td>
+                <td> <input type="Password" required name="Password"></td></tr>
+              <tr><td><label for="ConPassword">Confirm Password</label></td>
+                <td><input type="Password" required name="CPassword"></td></tr>
+              <tr><td><label for="DOB">DOB</label></td>
+             <td> <input type="date"  name="DOB" optional></td></tr>
+               <tr><td><label for="Age">Age</label></td>
+             <td> <input type="number"  name="Age" optional min="18" max="30"></td></tr>
+              <tr> <td><label for="Gender">Gender</label></td>
+                <td><input type="radio" value="M" name="Gender"><span>Male</span>
+            <input type="radio" value="F"name="Gender"><span>Female</span>
+            <input type="radio" value="O"name="Gender"><span>Other</span>
+        </td></tr>
+              <tr><td><label for="Country">Select Country</label></td>
+                <td><select >
+                <option value="India" name="Country">India</option>
+                <option value="US"name="Country">US</option>
+                <option value="Japan"name="Country">Japan</option>
+            </select></td></tr>
+              <tr>
+                 <td><label for="Resume">Upload Resume</label></td>
+                <td> <input type="file"  name="Resume" ></td>
+              </tr>
+           
+            </table>
+             <input type="reset">
+          </fieldset>
+          <fieldset>
+            <legend>Course Details</legend>
+            <table>
+            <tr><td><label for="Course">Select Course</label></td>
+            <td><select>
+                <option value="Java"name="Course">Java</option>
+                <option value="C"name="Course">C</option>
+                <option value="Python"name="Course">Python</option>
+                <option value="C#"name="Course">C#</option>
+            </select></td>
+            </tr>
+            <tr>
+            <td><label for="Mode">Select Mode</label></td>
+            <td>
+            <input type="radio" value="Online" name="Mode"><span>Online</span>
+            <input type="radio" value="Offline" name="Mode"><span>Offline</span>
+            </td>
+            </tr>
+        </table>
+                    <tr>
+            <td></td><label for="Comments">Comment</label>
+            <br><textarea rows="7" cols="30" name="Comments" optional></textarea>
+            </tr>
+            <br><input type="submit">
+          </fieldset>
+</form>
+        </body>
+</html>
+
+ 
+            
+           
+            
+           
+            
+            
+            
+            
+           
+           
+            
+           
+           
+            
+            
+            
+            
+            
+            
+           
